@@ -1,4 +1,4 @@
-# Find the best chiral acid
+# FindBestChiralAcid
 This is a repository for paper "  ".
 
 # Introduction
