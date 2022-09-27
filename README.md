@@ -1,8 +1,8 @@
 # FindBestChiralAcid
-This is a repository for paper "  ".
+This is a repository for paper "Data-driven design of new chiral carboxylic acid for asymmetric cobalt catalyzed C–H alkylation".
 
 # Introduction
-
+In light of the critical knowledge transfer for catalyst development, we envision that the digitalization of the knowledge transfer process can serve as a new data-driven strategy for catalyst design. This requires the ML model to capture the differences between the given transformation and the target reaction, so that the available statistics of the given transformation can serve as a knowledge source and guide the target design. Herein we report the development of a data-driven transfer learning workflow to achieve the ML prediction of catalytic performance using related synthetic data (Fig. 1c). Demonstrated in the discovery of new CCA catalyst, our ML model provided a powerful CCA prediction that realized the challenging asymmetric cobalt-catalyzed C–H alkylation of indoles. The ML-designed CCA catalyst enabled the target transformation that can simultaneously control both the C-centered and the C–N axial chirality, providing the atropisomeric indoles with excellent diastereo- and enantioselectivities (Fig. 1c). This work offered a paradigm-shifting tool for the discovery of molecular catalyst, which will serve as a powerful data engine to support the innovation of catalysis science.
 
 
 # Packages requirements
@@ -24,4 +24,4 @@ Notebook 1 demonstrates how to use demo data to
 # How to cite
 The paper is under review.
 # Contact with us
-Email: hxchem@zju.edu.cn; 22037023@zju.edu.cn
+Email: hxchem@zju.edu.cn; shuwen_li@zju.edu.cn
