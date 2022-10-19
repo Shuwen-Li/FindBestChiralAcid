@@ -21,8 +21,11 @@ xgboost = 1.3.3
 
 # Demo & Instructions for use
 Notebook 1 demonstrates how to generate descriptors.
+
 Notebook 2 demonstrates the process of model selection.
+
 Notebook 3 demonstrates the process of prediction.
+
 Notebook 4 demonstrates the baseline of prediction.
 # How to cite
 The paper is under review.
