@@ -49,12 +49,12 @@ def get_descriptor_selection(des,lable,model,des_len,tem_des_sel,all_num):
 train_index=list(set(list(range(69))))
 des_sel_max=108
 tem_des_sel=[]
-max_pear,max_r2,max_mae,tem_des_sel_max=circle(des[train_index],lable=ddg[train_index],model=RandomForestRegressor(n_jobs=60),des_len=108,tem_des_sel=tem_des_sel,all_num=69)
+max_pear,max_r2,max_mae,tem_des_sel_max=get_descriptor_selection(des[train_index],lable=ddg[train_index],model=RandomForestRegressor(n_jobs=60),des_len=108,tem_des_sel=tem_des_sel,all_num=69)
 print(max_pear,max_r2,max_mae,tem_des_sel_max)
 result=[]
 while True:
     tem_des_sel=tem_des_sel_max
-    max_pear,max_r2,max_mae,tem_des_sel_max=circle(des[train_index],lable=ddg[train_index],model=RandomForestRegressor(n_jobs=60),des_len=108,tem_des_sel=tem_des_sel,all_num=69)
+    max_pear,max_r2,max_mae,tem_des_sel_max=get_descriptor_selection(des[train_index],lable=ddg[train_index],model=RandomForestRegressor(n_jobs=60),des_len=108,tem_des_sel=tem_des_sel,all_num=69)
     result.append([max_pear,max_r2,max_mae,tem_des_sel_max])
     print(max_pear,max_r2,max_mae,tem_des_sel_max)
     if len(tem_des_sel_max) ==des_sel_max:
