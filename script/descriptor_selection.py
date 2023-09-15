@@ -1,3 +1,5 @@
+from sklearn.model_selection import KFold
+kfold = KFold(n_splits=10,shuffle=True)
 def get_descriptor_selection(des,lable,model,des_len,tem_des_sel,all_num):
     all_pearsr = []
     all_mae = []
