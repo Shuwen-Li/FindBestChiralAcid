@@ -35,4 +35,4 @@ Notebook 6 demonstrates the baseline of prediction.
 # How to cite
 The paper is under review.
 # Contact with us
-Email: hxchem@zju.edu.cn; shuwen_li@zju.edu.cn
+Email: shuwen_li@zju.edu.cn
