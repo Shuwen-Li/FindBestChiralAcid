@@ -33,6 +33,7 @@ Notebook 5 demonstrates the additional validation in substrate 1k.
 Notebook 6 demonstrates the baseline of prediction.
 
 # How to cite
-The paper is under review.
+Zi-Jing Zhang, Shu-Wen Li（Co-first authors）, João C. A. Oliveira, Yanjun Li, Xinran Chen, Shuo-Qing Zhang, Li-Cheng Xu, Torben Rogge, Xin Hong, Lutz Ackermann, Data-driven design of new chiral carboxylic acid for construction of indoles with C-central and C–N axial chirality via cobalt catalysis. Nat Commun. 14, 3149 (2023). 
+
 # Contact with us
 Email: shuwen_li@zju.edu.cn
